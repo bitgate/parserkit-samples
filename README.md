@@ -5,8 +5,8 @@ Fictional documents for trying the [parserkit](https://parserkit.com) document p
 | File | What it is |
 |---|---|
 | [`invoice-fernhill-1004.pdf`](invoice-fernhill-1004.pdf) | US invoice, 4 lines, 10.35% sales tax, $1,743.53 due |
-| [`invoice-fernhill-1005.pdf`](invoice-fernhill-1005.pdf) | US invoice, 2 lines, 10.35% sales tax, $589.27 due |
-| [`invoice-fernhill-1006.pdf`](invoice-fernhill-1006.pdf) | US invoice, 3 lines, 10.35% sales tax, $1,177.99 due |
+| [`invoice-fernhill-1007.pdf`](invoice-fernhill-1007.pdf) | US invoice, 2 lines, 10.35% sales tax, $780.29 due |
+| [`invoice-fernhill-1008.pdf`](invoice-fernhill-1008.pdf) | US invoice, 3 lines, 10.35% sales tax, $1,409.17 due |
 
 ## Parse one
 
