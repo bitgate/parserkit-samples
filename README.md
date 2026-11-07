@@ -4,9 +4,9 @@ Fictional documents for trying the [parserkit](https://parserkit.com) document p
 
 | File | What it is |
 |---|---|
-| [`invoice-fernhill-1001.pdf`](invoice-fernhill-1001.pdf) | US invoice, 4 lines, 10.35% sales tax, $1,041.70 due |
-| [`invoice-fernhill-1002.pdf`](invoice-fernhill-1002.pdf) | US invoice, 2 lines, 10.35% sales tax, $453.54 due |
-| [`invoice-fernhill-1003.pdf`](invoice-fernhill-1003.pdf) | US invoice, 3 lines, 10.35% sales tax, $673.14 due |
+| [`invoice-fernhill-1004.pdf`](invoice-fernhill-1004.pdf) | US invoice, 4 lines, 10.35% sales tax, $1,743.53 due |
+| [`invoice-fernhill-1005.pdf`](invoice-fernhill-1005.pdf) | US invoice, 2 lines, 10.35% sales tax, $589.27 due |
+| [`invoice-fernhill-1006.pdf`](invoice-fernhill-1006.pdf) | US invoice, 3 lines, 10.35% sales tax, $1,177.99 due |
 
 ## Parse one
 
@@ -14,7 +14,7 @@ Fictional documents for trying the [parserkit](https://parserkit.com) document p
 curl https://api.parserkit.com/v1/parse \
   -H "Authorization: Bearer $PARSERKIT_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"file_url": "https://raw.githubusercontent.com/bitgate/parserkit-samples/master/invoice-fernhill-1001.pdf", "preset": "invoice"}'
+  -d '{"file_url": "https://raw.githubusercontent.com/bitgate/parserkit-samples/master/invoice-fernhill-1004.pdf", "preset": "invoice"}'
 ```
 
 Docs: https://parserkit.com/docs
